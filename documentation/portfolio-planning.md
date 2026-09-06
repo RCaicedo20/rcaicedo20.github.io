@@ -91,7 +91,7 @@ An unordered list of all the technical skills I have.
 
 ### 7. Education: hover summary + clickable expandable cards
 
-Across the width of a computer: Flex, small boxes with a picture of the company I worked for, and if the user hovers over it, it will show the university and bachelor's degree. For all widths, if the user clicks on it, it will increase in size and show the full card. University, dates, bachelor's, etc. Only one expanded card at a time.
+Across the width of a computer: use Flexbox to display small education cards featuring an image of the university I studied at or currently attend. On hover, show the university name and bachelor's degree. On all screen widths, clicking a card expands it to display the full information, including the university, dates, bachelor's degree, etc. Only one card can be expanded at a time.
 
 ### 8. Contact: clickable cards/links
 
