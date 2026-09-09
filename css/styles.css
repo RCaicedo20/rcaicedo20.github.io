@@ -1,15 +1,55 @@
-* {
+/* Add fonts */
 
+    /* Inter */
+@font-face {
+    font-family: "Inter";
+    src: url("../assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../assets/fonts/inter/Inter-Italic-VariableFont_opsz\,wght.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 100 900;
+}
+
+    /* Space Grotesk */
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("../assets/fonts/space-grotesk/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300 700;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 :root {
-
+    /* Typography */
+    --font-heading: "Space Grotesk", sans-serif;
+    --font-body: "Inter", sans-serif;
+    
+        /* scale */
+    --font-size-hero: 2.5rem;
+    --font-size-section-heading: 1.75rem;
+    --font-size-card-title: 1.25rem;
+    --font-size-body: 1rem;
+    --font-size-small: 0.875rem;
 }
 
 
 /* Responsive layout for tablet */
 @media (min-width: 768px) {
 
+    :root {
+        /* Typography */
+            /* scale */
+        --font-size-hero: 4rem;
+        --font-size-section-heading: 2.25rem;
+    }
 }
 
 /* Responsive layout for computer */
