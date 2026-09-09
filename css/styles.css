@@ -28,6 +28,16 @@
 }
 
 :root {
+    /* Colors */
+    --color-background: #0F1115;
+    --color-cards: #171A21;
+    --color-primary-text: #F4F4F5;
+    --color-muted-text: #A1A1AA;
+    --color-primary-accent: #D84040;
+    --color-accent-hover: #F05A5A;
+    --color-secondary-accent: #F59E0B;
+    --color-optional-functional-accent: #60A5FA;
+
     /* Typography */
     --font-heading: "Space Grotesk", sans-serif;
     --font-body: "Inter", sans-serif;
@@ -38,17 +48,43 @@
     --font-size-card-title: 1.25rem;
     --font-size-body: 1rem;
     --font-size-small: 0.875rem;
+
+    /* Spacing */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    --space-2xl: 5rem;
+
+    /* Borders radius*/
+    --radius-sm: 8px;
+    --radius-card: 12px;
+    --radius-large-container: 16px;
+
+    /* Motion */
+    --transition-fast: 0.25s;
+    --transition-standard: 0.4s;
+    --transition-slow: 0.5s;
+
+    /* Layout */
+    --container-max-width: 1200px;
+    --container-width: 90%;
+    --page-padding: 1rem;
+    --section-spacing: 5rem;
 }
 
 
 /* Responsive layout for tablet */
 @media (min-width: 768px) {
-
     :root {
         /* Typography */
             /* scale */
         --font-size-hero: 4rem;
         --font-size-section-heading: 2.25rem;
+
+        /* Layout */
+        --page-padding: 2rem;
     }
 }
 
