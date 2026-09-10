@@ -42,13 +42,13 @@
     --font-heading: "Space Grotesk", sans-serif;
     --font-body: "Inter", sans-serif;
     
-        /* scale */
+    /* scale */
     --font-size-hero: 2.5rem;
     --font-size-section-heading: 1.75rem;
     --font-size-card-title: 1.25rem;
     --font-size-body: 1rem;
     --font-size-small: 0.875rem;
-
+    
     /* Spacing */
     --space-xs: 0.5rem;
     --space-sm: 1rem;
@@ -56,17 +56,18 @@
     --space-lg: 2rem;
     --space-xl: 3rem;
     --space-2xl: 5rem;
-
+    --space-3xl: 6rem;
+    
     /* Borders radius*/
     --radius-sm: 8px;
     --radius-card: 12px;
     --radius-large-container: 16px;
-
+    
     /* Motion */
     --transition-fast: 0.25s;
     --transition-standard: 0.4s;
     --transition-slow: 0.5s;
-
+    
     /* Layout */
     --container-max-width: 1200px;
     --container-width: 90%;
@@ -81,6 +82,7 @@ body {
     font-family: var(--font-body);
     background-color: var(--color-background);
     color: var(--color-primary-text);
+    line-height: 1.5;
 }
 
 main {
@@ -88,6 +90,10 @@ main {
     width: var(--container-width);
     margin-inline: auto;
     padding-inline: var(--page-padding);
+}
+
+section {
+    scroll-margin-top: var(--space-3xl);
 }
 
 /* Navbar */
@@ -156,6 +162,81 @@ nav {
 
 .nav-links a:focus-visible {
     outline: 0.1rem solid var(--color-primary-text);    
+}
+
+/* Hero */
+
+#home {
+    padding-top: var(--space-3xl);
+}
+
+#home p {
+    font-size: var(--font-size-body);
+    margin: 0;
+}
+
+#greeting-message {
+    font-size: var(--font-size-small);
+}
+
+#home h1 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-hero);
+    margin: var(--space-xs) 0;
+}
+
+#profession {
+    color: var(--color-primary-accent);
+    font-size: var(--font-size-body);
+}
+
+#home a:focus-visible {
+    outline: 0.1rem solid var(--color-primary-text);
+    outline-offset: 0.3em;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    padding-top: var(--space-sm);
+}
+
+#projects-button, #contact-button {
+    text-decoration: none;
+    background-color: var(--color-primary-accent);
+    color: var(--color-primary-text);
+    border-radius: var(--radius-sm);
+    padding: var(--space-sm) var(--space-md);
+}
+
+.social-links {
+    display: flex;
+    padding-top: var(--space-sm);
+    gap: var(--space-xs);
+}
+
+.social-links ion-icon {
+    font-size: 2.5rem;
+    color: var(--color-primary-text);
+}
+
+/* About */
+
+#about h2 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-section-heading);
+}
+
+#about p {
+    font-size: var(--font-size-body);
+}
+
+#rommel-caicedo-picture {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-inline: auto;
 }
 
 /* Responsive layout for tablet */
