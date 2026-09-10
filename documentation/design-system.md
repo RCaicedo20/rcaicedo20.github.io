@@ -60,6 +60,7 @@ MD: 1.5rem
 LG: 2rem
 XL: 3rem
 2XL: 5rem
+3XL: 6rem
 
 ## Borders / effects
 
