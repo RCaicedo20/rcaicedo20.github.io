@@ -16,13 +16,25 @@
     <body>
         <header>
             <nav>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#experience">Experience</a>
-                <a href="#skills">Skills</a>
-                <a href="#education">Education</a>
-                <a href="#contact">Contact</a>
+                <button 
+                    class="nav-toggle"
+                    type="button" 
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links"
+                >
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+
+                <div class="nav-links" id="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </div>
             </nav>
         </header>
 
@@ -57,8 +69,8 @@
             <section id="about">
                 <h2>About</h2>
                 <p>A Systems Engineering student at UPV, specializing in AI and Data Science, based in Valencia, Spain. I'm an active learner who enjoys challenges, new experiences, and travelling. I have hands-on experience building software involving REST APIs, Python, SQL, data-driven systems, modular architectures, debugging, testing, and RAG-based applications. I'm pursuing a career in software engineering, with the long-term goal of growing into a technical leadership role and helping teams solve real-world problems through innovative software. I'm especially interested in AI and its potential to expand what people and technology can achieve together.</p>
-                <img src="assets/images/rommel-profile-photo.png" alt="Rommel Caicedo profile pic">
-            </section>
+                <img src="assets/images/rommel-profile-photo.png" alt="Rommel Caicedo profile pic" id="rommel-caicedo-picture">
+            </section> 
 
             <section id="projects">
                 <h2>Projects</h2>
@@ -348,5 +360,6 @@
         </footer>
         <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
