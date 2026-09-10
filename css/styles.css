@@ -96,6 +96,10 @@ section {
     scroll-margin-top: var(--space-3xl);
 }
 
+h2, h3 {
+    font-family: var(--font-heading);
+}
+
 /* Navbar */
 
 header{
@@ -238,6 +242,44 @@ nav {
     height: auto;
     margin-inline: auto;
 }
+
+/* Projects */
+
+#projects h2 {
+    font-size: var(--font-size-section-heading);
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-lg);
+}
+
+.project-card {
+    background-color: var(--color-cards);
+    border: 4px outset var(--color-primary-accent);
+    border-radius: var(--radius-card);
+    padding: var(--space-md);
+    text-align: center;
+    width: 100%;
+}
+
+#projects h3 {
+    font-size: var(--font-size-card-title);
+}
+
+/* .project-description {
+    text-align: left;
+} */
+
+.project-technologies {
+    font-size: var(--font-size-small);
+    color: var(--color-muted-text);
+}
+
+/* Experience */
+
+
 
 /* Responsive layout for tablet */
 @media (min-width: 768px) {
