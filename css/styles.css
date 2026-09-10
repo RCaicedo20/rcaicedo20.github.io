@@ -268,10 +268,6 @@ nav {
     font-size: var(--font-size-card-title);
 }
 
-/* .project-description {
-    text-align: left;
-} */
-
 .project-technologies {
     font-size: var(--font-size-small);
     color: var(--color-muted-text);
@@ -279,6 +275,58 @@ nav {
 
 /* Experience */
 
+#experience h2{
+    font-size: var(--font-size-section-heading);
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-lg);
+}
+
+.experience-card {
+    background-color: var(--color-cards);
+    border: 4px outset var(--color-primary-accent);
+    border-radius: var(--radius-card);
+    padding: var(--space-md);
+    text-align: center;
+    width: 100%;
+}
+
+.experience-full {
+    display: none;
+}
+
+#experience h3 {
+    font-size: var(--font-size-card-title);
+}
+
+.logo--upv-enhance {
+    color: var(--color-primary-text);
+}
+
+.logo--upv-enhance .logo__background {
+    fill: var(--color-background);
+}
+
+.logo--cactus .logo__foreground{
+    fill: var(--color-primary-text);
+}
+
+.logo--cactus .logo__background {
+    fill: var(--color-background);
+}
+
+/* Skills */
+
+#skills h2 {
+    font-size: var(--font-size-section-heading);
+}
+
+#skills h3 {
+    font-size: var(--font-size-card-title);
+}
 
 
 /* Responsive layout for tablet */
