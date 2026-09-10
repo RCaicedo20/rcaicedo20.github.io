@@ -90,6 +90,74 @@ main {
     padding-inline: var(--page-padding);
 }
 
+/* Navbar */
+
+header{
+    position: fixed;
+    top: var(--space-sm);
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: var(--container-max-width);
+    width: var(--container-width);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-color: var(--color-cards);
+    border-radius: var(--radius-large-container);
+    padding: var(--space-sm);
+}
+
+.nav-links{
+    display: none;
+}
+
+.nav-links.is-open{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+    border: none;
+    color: var(--color-primary-text);
+    cursor: pointer;
+
+    padding: 0;
+    border-radius: var(--radius-sm);
+}
+
+.nav-toggle ion-icon {
+    font-size: 2rem;    
+}
+
+.nav-toggle:focus-visible {
+    outline: 0.1rem solid var(--color-primary-text);
+    outline-offset: 0.3em;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--color-primary-text);
+    padding: var(--space-xs);
+    text-align: center;
+    border-radius: var(--radius-sm);
+}
+
+.nav-links a:focus-visible {
+    outline: 0.1rem solid var(--color-primary-text);    
+}
+
 /* Responsive layout for tablet */
 @media (min-width: 768px) {
     :root {
