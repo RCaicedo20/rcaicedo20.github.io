@@ -1,5 +1,7 @@
 # Portfolio Content
 
+Every actiont text, will be implemented in Portfolio V1
+
 ## Hero
 
 Greeting: Hello there! I'm
@@ -68,4 +70,4 @@ Location: Vancouver, Canada
 GitHub: [Github](https://github.com/RCaicedo20)
 LinkedIn: [LinkedIn](https://www.linkedin.com/in/rommel-caicedo-españa-362b1914b)
 Email: rommelmateoce@hotmail.com
-CV: Download CV
+CV: Check my CV! (My resume document)

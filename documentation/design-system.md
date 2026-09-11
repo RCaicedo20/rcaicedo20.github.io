@@ -81,7 +81,7 @@ Primary Button:
 - Hover: brighter red + slight upward movement
 - Focus: visible outline
 
-Secondary Button:
+Secondary Button (For V1):
 
 - Transparent background
 - Light text
@@ -95,7 +95,7 @@ Secondary Button:
 Base Card:
 
 - Dark surface
-- Subtle border
+- Strong order
 - 12px border radius
 - 1.5rem padding
 
@@ -105,7 +105,7 @@ Hover:
 - Border becomes more visible
 - Smooth transition
 
-Expanded:
+Expanded (For V1):
 
 - Increased size
 - Full details shown
@@ -160,11 +160,12 @@ Page Container:
 Horizontal Padding:
 
 - Mobile: 1rem
-- Tablet/Desktop: 2rem
+- Tablet/Desktop: 0px
 
 Major Section Spacing:
 
-- Approximately 5rem vertically
+- Determined by content and section layout
+- Maintain clear visual separation between sections
 
 Text-heavy Content:
 
@@ -202,6 +203,4 @@ Mobile:
 Visual behavior:
 
 - Soft rounded corners
-- Subtle border
-- Slight shadow or depth
 - Must remain clearly readable over every section
