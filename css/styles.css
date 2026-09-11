@@ -388,6 +388,11 @@ nav {
     color: var(--color-primary-text);
 }
 
+.contact-group a:focus-visible {
+    outline: 0.1rem solid var(--color-primary-text);
+    outline-offset: 0.3em;
+}
+
 .contact-group ion-icon {
     font-size: var(--font-size-hero);
 }
@@ -660,5 +665,26 @@ nav {
     .contact-group ion-icon:hover {
         color: var(--color-accent-hover);
         font-size: 2.7rem;  
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-card,
+    .social-links ion-icon,
+    .contact-group ion-icon,
+    #projects-button,
+    #contact-button,
+    .experience-card h3,
+    .experience-summary,
+    .experience-card .logo {
+        transition: none;
+    }
+
+    .project-card:hover {
+        transform: none;
+    }
+
+    .social-links ion-icon:hover {
+        transform: none;
     }
 }
