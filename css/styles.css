@@ -225,6 +225,10 @@ nav {
     color: var(--color-primary-text);
 }
 
+#hero-section-visual {
+    display: none;
+}
+
 /* About */
 
 #about h2 {
@@ -484,5 +488,177 @@ nav {
 
 /* Responsive layout for computer */
 @media (min-width: 1024px) {
+    main {
+        padding: 0px 0px;
+    }
 
+    /* Navbar */
+
+    header {
+        width: fit-content;
+        max-width: 90%;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: var(--space-xs) var(--space-sm);
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-links a {
+        font-size: var(--font-size-body);
+        padding: 0.25rem var(--space-xs);
+        transition: background-color var(--transition-fast) ease;
+    }
+
+    .nav-links a:hover {
+        background-color: var(--color-background);
+    }
+
+    /* Hero */
+
+    .hero-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--space-lg);
+    }
+
+    .hero-content {
+        flex: 1;
+        z-index: 2;
+    }
+
+    .hero-visual {
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    #hero-section-visual {
+        display: block;
+        width: 100%;
+        height: auto;
+
+        transform: scale(1.3);
+        transform-origin: right center;
+    }
+
+    #projects-button, #contact-button {
+        transition: background-color var(--transition-standard) ease;
+    }
+
+    #projects-button:hover, #contact-button:hover {
+        background-color: var(--color-accent-hover);
+    }
+
+    .social-links ion-icon {
+        transition: 
+            color var(--transition-standard) ease,
+            transform var(--transition-slow) ease;
+    }
+
+    .social-links ion-icon:hover {
+        color: var(--color-accent-hover);
+        transform: scale(1.08);
+    }
+
+    /* About */
+
+    #rommel-caicedo-picture {
+        width: 30%;
+    }
+
+    /* Projects */
+
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        gap: var(--space-lg);
+    }
+
+    .project-card {
+        width: 100%;
+        transition: 
+            background-color var(--transition-slow) ease,
+            transform var(--transition-standard) ease,
+            border-color var(--transition-standard) ease;
+    }
+
+    .project-card:hover {
+        background-color: var(--color-accent-hover);
+        transform: translateY(-8px);
+        border-color: var(--color-muted-text);
+    }
+
+    /* Experience */
+
+    .experience-card h3,
+    .experience-summary {
+        opacity: 0;
+        visibility: hidden;
+
+        transition:
+            opacity var(--transition-standard) ease,
+            visibility var(--transition-standard) ease;        
+    }
+
+    .experience-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 22rem;
+    }
+
+    .logo .logo__background {
+        fill: var(--color-cards);
+    }
+
+    .experience-card:hover h3,
+    .experience-card:hover .experience-summary {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .experience-card .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        transition: opacity var(--transition-standard) ease;
+        width: 40%;
+        height: auto;
+    }
+
+    .experience-card:hover .logo {
+        opacity: 0;
+    }
+
+    /* Contact */
+
+    .contact-group ion-icon {
+        transition: 
+            color var(--transition-standard) ease,
+            font-size var(--transition-slow) ease;
+    }
+
+    .contact-group ion-icon:hover {
+        color: var(--color-accent-hover);
+        font-size: 2.7rem;  
+    }
 }
