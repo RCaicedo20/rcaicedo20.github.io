@@ -82,21 +82,19 @@ A paragraph about who I am, next to a picture of myself. Static text + profile i
 
 Each project should be in a box. With animation characteristics: hover and transition. Responsive project cards; clicking/project pages are future V1, so in the future, by clicking on the project, it will redirect the user to a whole dedicated page just for the project. It should be a grid. And it should work well in different widths.
 
-### 5. Experience: hover summary + clickable, expandable cards
+### 5. Experience: responsive cards + desktop hover summary
 
-Across the width of a computer: Flex, small boxes with a picture of the company I worked for, and if the user hovers over it, it will show a summary of what I did. For all widths, if the user clicks on it, it will increase in size and show the full card. Company, position, and what I did. Only one expanded card at a time.
-
-V0: desktop logo → summary hover; mobile/tablet summary visible. Expansion moves to future V1
+On mobile and tablet, Experience cards display their title, logo, and summary.
+On desktop, the company logo is shown by default and the summary appears on hover.
 
 ### 6. Technical Skills: static list
 
 An unordered list of all the technical skills I have.
 
-### 7. Education: hover summary + clickable expandable cards
+### 7. Education: static responsive cards
 
-Across the width of a computer: use Flexbox to display small education cards featuring an image of the university I studied at or currently attend. On hover, show the university name and bachelor's degree. On all screen widths, clicking a card expands it to display the full information, including the university, dates, bachelor's degree, etc. Only one card can be expanded at a time.
-
-V0: static responsive education cards with logo/basic information. Expansion moves to future V1
+Education cards display the university logo and basic education information
+across responsive layouts.
 
 ### 8. Contact: clickable cards/links
 

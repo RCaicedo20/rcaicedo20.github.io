@@ -95,7 +95,7 @@ Secondary Button (For V1):
 Base Card:
 
 - Dark surface
-- Strong order
+- Strong border
 - 12px border radius
 - 1.5rem padding
 
@@ -160,7 +160,8 @@ Page Container:
 Horizontal Padding:
 
 - Mobile: 1rem
-- Tablet/Desktop: 0px
+- Tablet: 2rem
+- Desktop: 0
 
 Major Section Spacing:
 
