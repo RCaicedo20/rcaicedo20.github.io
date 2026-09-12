@@ -1,6 +1,6 @@
 # Portfolio Content
 
-Every actiont text, will be implemented in Portfolio V1
+Project case-study action text is planned for Portfolio V1.
 
 ## Hero
 
