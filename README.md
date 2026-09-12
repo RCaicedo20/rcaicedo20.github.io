@@ -107,9 +107,9 @@ git clone git@github.com:RCaicedo20/rcaicedo20.github.io.git
 ```
 Move into a project directory: 
 ```text
-cd yourdirectoryname
+cd rcaicedo20.github.io
 ```
-Since the portfolio is a static website, you can open ```text index.html ``` directly in your browser. Alternatively, you can run a local development server.
+Since the portfolio is a static website, you can open `index.html` directly in your browser. Alternatively, you can run a local development server.
 
 For example, using Python: 
 ```text
