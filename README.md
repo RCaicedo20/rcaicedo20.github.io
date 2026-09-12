@@ -119,3 +119,36 @@ Then open:
 ```text
 http://localhost:8000
 ```
+## Project Status
+
+### Portfolio V0 — Complete
+
+V0 focuses on creating a functional, responsive, and visually consistent portfolio while applying the HTML, CSS, JavaScript, Git, and GitHub fundamentals learned during development.
+
+The current version intentionally keeps some interactions simple while I continue developing my JavaScript and accessibility knowledge.
+
+### Known Limitation
+
+The desktop Experience section currently uses a hover-based interaction to reveal its summary. Because this interaction depends on pointer hover, it is not yet fully accessible to keyboard-only users.
+
+This behaviour is planned to be redesigned in a future version using a proper accessible interaction.
+
+### Future Improvements
+
+Planned improvements for future versions include:
+
+- Expandable Experience cards
+- Expandable Education cards
+- Keyboard-accessible interactive card behaviour
+- Showing additional Experience information when a card is selected
+- Dedicated case-study pages for individual projects
+- Improved accessibility for interactive components
+- Additional portfolio projects and content
+
+## Author
+
+### Rommel Caicedo
+
+[GitHub](https://github.com/RCaicedo20)
+
+[LinkedIn](https://www.linkedin.com/in/rommel-caicedo-espa%C3%B1a-362b1914b/)
