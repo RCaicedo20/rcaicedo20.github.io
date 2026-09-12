@@ -78,7 +78,7 @@ Primary Button:
 - Light text
 - 8px border radius
 - Padding: SM vertically, MD horizontally
-- Hover: brighter red + slight upward movement
+- Hover: brighter red
 - Focus: visible outline
 
 Secondary Button (For V1):
